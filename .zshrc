@@ -21,3 +21,12 @@ setopt hist_ignore_dups
 setopt share_history
 setopt hist_reduce_blanks
 
+## Complement
+#
+autoload -U compinit; compinit
+setopt auto_list
+setopt auto_menu
+setopt list_packed
+setopt list_types
+bindkey "^[[Z" reverse-menu-complete
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
