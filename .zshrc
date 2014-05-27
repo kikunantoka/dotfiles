@@ -1,7 +1,6 @@
 ## Config
 #
 export LANG=ja_JP.UTF-8
-setopt correct
 
 ## Path
 #
@@ -63,9 +62,10 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 #
 autoload colors
 colors
-PROMPT="%{${fg[yellow]}%}%~%{${reset_color}%}
-[%n]$ "
-PROMPT2='[%n]> '
+# PROMPT='%(?,%F{green}(▰╹◡╹),%F{red}٩(๑\`^´๑%)۶)%(!,#,<)%f '
+PROMPT='%(?,%F{green},%F{red})%(!,#,$)%f '
+RPROMPT='%F{blue}%n%f@%F{green}%m%f:%F{yellow}[ %~ ]%f'
+setopt transient_rprompt
 
 
 ## Color
