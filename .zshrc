@@ -12,6 +12,8 @@ eval "$(rbenv init -)"
 
 ## Alias
 #
+alias be='bundle exec'
+alias bi='bundle install'
 alias his='history'
 alias p='pwd'
 alias e='echo'
