@@ -30,3 +30,11 @@ setopt list_packed
 setopt list_types
 bindkey "^[[Z" reverse-menu-complete
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
+
+## Prompt
+#
+autoload colors
+colors
+PROMPT="%{${fg[yellow]}%}%~%{${reset_color}%}
+[%n]$ "
+PROMPT2='[%n]> '
