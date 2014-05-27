@@ -1,7 +1,13 @@
+## Config
+#
+export LANG=ja_JP.UTF-8
+setopt correct
+
+## Path
+#
 export PATH="$HOME/.rbenv/bin:$PATH"
 export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="/usr/local/mysql/bin:$PATH"
-
 eval "$(rbenv init -)"
 
 
