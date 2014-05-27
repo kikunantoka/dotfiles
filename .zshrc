@@ -4,9 +4,31 @@ export PATH="/usr/local/mysql/bin:$PATH"
 
 eval "$(rbenv init -)"
 
+
+## Alias
+#
+alias his='history'
+alias p='pwd'
+alias e='echo'
+alias v='vim'
+alias vi='vim'
+alias s="subl"
+alias t='tree'
+alias c='cat -n'
+alias l='ls -a'
 alias la='ls -a'
-alias ll='ls -a'
+alias ll='ls -al'
+alias log='tail -f 5'
 alias rm='rm -i'
+
+# git
+alias g='git'
+alias gs='git status'
+alias gl='git log'
+alias ga='git add'
+alias gc='git commit'
+alias gp='git push'
+
 
 ## History
 #
@@ -19,6 +41,7 @@ setopt hist_ignore_dups
 setopt share_history
 setopt hist_reduce_blanks
 
+
 ## Complement
 #
 autoload -U compinit; compinit
@@ -29,6 +52,7 @@ setopt list_types
 bindkey "^[[Z" reverse-menu-complete
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 
+
 ## Prompt
 #
 autoload colors
@@ -36,6 +60,7 @@ colors
 PROMPT="%{${fg[yellow]}%}%~%{${reset_color}%}
 [%n]$ "
 PROMPT2='[%n]> '
+
 
 ## Color
 #
