@@ -15,6 +15,7 @@ if has('vim_starting')
 endif
 
 NeoBundle 'Shougo/neobundle.vim'
+NeoBundle 'Shougo/vimproc'
 
 filetype plugin indent on     " required!
 filetype indent on
