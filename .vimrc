@@ -16,6 +16,7 @@ endif
 
 NeoBundle 'Shougo/neobundle.vim'
 NeoBundle 'Shougo/vimproc'
+NeoBundle 'Shougo/unite.vim'
 
 filetype plugin indent on     " required!
 filetype indent on
