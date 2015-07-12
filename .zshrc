@@ -84,3 +84,10 @@ export ZLS_COLORS=$LS_COLORS
 export CLICOLOR=true
 zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
 
+
+## AnyEnv
+#
+for D in 'ls $HOME/.anyenv/envs'
+do
+  export PATH="$HOME/.anyenv/envs/$D/shims:$PATH"
+done
