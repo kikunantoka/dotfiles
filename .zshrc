@@ -11,7 +11,9 @@ export PATH=$HOME/.nodebrew/current/bin:$PATH
 export GOPATH=$HOME/gocode
 export GOROOT=/usr/local/opt/go/libexec
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+export PATH="$HOME/.anyenv/bin:$PATH"
 eval "$(rbenv init -)"
+eval "$(anyenv init -)"
 
 
 ## Alias
