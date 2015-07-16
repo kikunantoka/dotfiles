@@ -34,6 +34,7 @@ alias la='ls -a'
 alias ll='ls -al'
 alias log='tail -f 5'
 alias rm='rm -i'
+alias nw='nightwatch'
 
 # git
 alias g='git'
