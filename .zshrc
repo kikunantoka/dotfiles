@@ -4,7 +4,6 @@ export LANG=ja_JP.UTF-8
 
 ## Path
 #
-export PATH="$HOME/.rbenv/bin:$PATH"
 export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="/usr/local/mysql/bin:$PATH"
 export PATH=$HOME/.nodebrew/current/bin:$PATH
@@ -12,7 +11,6 @@ export GOPATH=$HOME/gocode
 export GOROOT=/usr/local/opt/go/libexec
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 export PATH="$HOME/.anyenv/bin:$PATH"
-eval "$(rbenv init -)"
 eval "$(anyenv init -)"
 
 
