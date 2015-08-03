@@ -14,6 +14,14 @@ export PATH="$HOME/.anyenv/bin:$PATH"
 eval "$(anyenv init -)"
 
 
+## AnyEnv
+#
+for D in 'ls $HOME/.anyenv/envs'
+do
+  export PATH="$HOME/.anyenv/envs/$D/shims:$PATH"
+done
+
+
 ## Alias
 #
 alias be='bundle exec'
@@ -86,11 +94,3 @@ export LS_COLORS='di=01;34:ln=01;35:so=01;32:ex=01;31:bd=46;34:cd=43;34:su=41;30
 export ZLS_COLORS=$LS_COLORS
 export CLICOLOR=true
 zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
-
-
-## AnyEnv
-#
-for D in 'ls $HOME/.anyenv/envs'
-do
-  export PATH="$HOME/.anyenv/envs/$D/shims:$PATH"
-done
