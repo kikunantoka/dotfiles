@@ -41,7 +41,9 @@ alias gl='git log'
 alias ga='git add'
 alias gc='git commit'
 alias gp='git push'
-
+alias gb='git branch'
+alias gpl='git pull'
+alias gch='git checkout'
 
 ## History
 #
