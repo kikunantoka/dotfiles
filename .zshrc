@@ -42,6 +42,7 @@ alias ll='ls -al'
 alias log='tail -f 5'
 alias rm='rm -i'
 alias nw='nightwatch'
+alias fs='foreman start'
 
 # git
 alias g='git'
@@ -54,6 +55,7 @@ alias gb='git branch'
 alias gpl='git pull'
 alias gco='git checkout'
 alias gd='git diff'
+alias gr='git rebase'
 
 ## History
 #
