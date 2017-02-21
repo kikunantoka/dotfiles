@@ -44,6 +44,11 @@ alias t='tree'
 alias v='vim'
 alias vi='vim'
 
+# rails
+alias rc='rails console'
+alias rg='rails generate'
+alias rs='rails server'
+
 # git
 alias g='git'
 alias ga='git add'
