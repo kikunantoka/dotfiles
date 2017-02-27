@@ -57,7 +57,8 @@ alias gc='git commit'
 alias gca='git commit --amend'
 alias gco='git checkout'
 alias gd='git diff'
-alias gl='git log'
+alias gg="git log --graph --date=short --decorate=short --pretty=format:'%Cgreen%h %Creset%cd %Cblue%cn %Cred%d %Creset%s'"
+alias gl="git log --date=short --decorate=short --pretty=format:'%Cgreen%h %Creset%cd %Cblue%cn %Cred%d %Creset%s'"
 alias gp='git push'
 alias gpl='git pull'
 alias gr='git rebase'
