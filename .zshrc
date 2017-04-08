@@ -48,8 +48,9 @@ alias vi='vim'
 alias rc='rails console'
 alias rg='rails generate'
 alias rs='rails server'
-alias rr='rails db:migrate:reset'
-alias sd='rails db:seed_fu'
+alias rdr='rails db:migrate:reset'
+alias rds='rails db:seed_fu'
+alias rr='rails routes'
 
 # git
 alias g='git'
