@@ -38,6 +38,7 @@ alias ll='ls -al'
 alias log='tail -f 5'
 alias nw='nightwatch'
 alias p='pwd'
+alias relogin='exec $SHELL -l'
 alias rm='rm -i'
 alias s="subl"
 alias t='tree'
