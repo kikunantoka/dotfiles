@@ -25,6 +25,7 @@ done
 
 ## Alias
 #
+alias a='atom ./'
 alias be='bundle exec'
 alias bi='bundle install'
 alias bu='bundle update'
@@ -43,7 +44,6 @@ alias nw='nightwatch'
 alias p='pwd'
 alias relogin='exec $SHELL -l'
 alias rm='rm -i'
-alias s="subl"
 alias t='tree'
 alias v='vim'
 alias vi='vim'
