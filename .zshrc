@@ -64,6 +64,7 @@ alias gbd='git branch -D'
 alias gc='git commit'
 alias gca='git commit --amend'
 alias gco='git checkout'
+alias gcob='git checkout -b'
 alias gd='git diff'
 alias gg="git log --graph --date=short --decorate=short --pretty=format:'%Cgreen%h %Creset%cd %Cblue%cn %Cred%d %Creset%s'"
 alias gl="git log --date=short --decorate=short --pretty=format:'%Cgreen%h %Creset%cd %Cblue%cn %Cred%d %Creset%s'"
