@@ -55,6 +55,7 @@ alias rg='rails generate'
 alias rs='rails server'
 alias rdr='rails db:migrate:reset'
 alias rds='rails db:seed_fu'
+alias rdrs='rails db:migrate:reset && rails db:seed_fu'
 alias rr='rails routes'
 
 # git
