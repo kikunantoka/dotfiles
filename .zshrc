@@ -11,7 +11,6 @@ export GOPATH=$HOME/gocode
 export GOROOT=/usr/local/opt/go/libexec
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 export PATH="$HOME/.anyenv/bin:$PATH"
-export PATH="$PATH:`yarn global bin`"
 eval "$(anyenv init -)"
 
 
