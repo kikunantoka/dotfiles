@@ -11,6 +11,7 @@ export GOPATH=$HOME/gocode
 export GOROOT=/usr/local/opt/go/libexec
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 export PATH="$HOME/.anyenv/bin:$PATH"
+export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 eval "$(anyenv init -)"
 
 
