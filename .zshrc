@@ -5,7 +5,7 @@ export LANG=ja_JP.UTF-8
 ## Path
 #
 export PATH="/usr/local/heroku/bin:$PATH"
-export PATH="/usr/local/mysql/bin:$PATH"
+export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 export GOPATH=$HOME/gocode
 export GOROOT=/usr/local/opt/go/libexec
