@@ -13,6 +13,7 @@ export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 export PATH="$HOME/.anyenv/bin:$PATH"
 export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 export PATH="$PATH:$HOME/repository/flutter/bin"
+export PATH="$PATH:/Users/kick/Library/Android/sdk/platform-tools"
 eval "$(anyenv init -)"
 
 
