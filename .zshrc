@@ -12,8 +12,9 @@ export GOROOT=/usr/local/opt/go/libexec
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 export PATH="$HOME/.anyenv/bin:$PATH"
 export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
-export PATH="$PATH:$HOME/repository/flutter/bin"
 export PATH="$PATH:/Users/kick/Library/Android/sdk/platform-tools"
+export PATH="$PATH":"$HOME/.pub-cache/bin" # fvm
+eval "$(/opt/homebrew/bin/brew shellenv)"
 eval "$(anyenv init -)"
 
 
@@ -50,6 +51,16 @@ alias rm='rm -i'
 alias t='tree'
 alias v='vim'
 alias vi='vim'
+
+# terraform
+alias tf='terraform'
+alias tfi='terraform init'
+alias tfp='terraform plan'
+alias tfa='terraform apply'
+alias tfd='terraform destroy'
+alias tfw='terraform workspace'
+alias tfwl='terraform workspace list'
+alias tfws='terraform workspace select'
 
 # rails
 alias rc='rails console'
