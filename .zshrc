@@ -89,6 +89,9 @@ alias gpl='git pull'
 alias gr='git rebase'
 alias gs='git status'
 
+# python
+alias python='python3'
+
 ## History
 #
 HISTFILE=~/.zsh_history
