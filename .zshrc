@@ -13,6 +13,7 @@ export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 export PATH="$HOME/.anyenv/bin:$PATH"
 export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 export PATH="$PATH:/Users/kick/Library/Android/sdk/platform-tools"
+export PATH="$PATH:$HOME/development/flutter/bin" # Flutter SDK
 export PATH="$PATH":"$HOME/.pub-cache/bin" # fvm
 eval "$(/opt/homebrew/bin/brew shellenv)"
 eval "$(anyenv init -)"
@@ -134,13 +135,12 @@ export ZLS_COLORS=$LS_COLORS
 export CLICOLOR=true
 zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
 
-
 # Enable Control + S
 stty stop undef
 stty start undef
 
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/kick/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/kick/google-cloud-sdk/path.zsh.inc'; fi
+if [ -f '/Users/kick/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/kick/google-cloud-sdk/path.zsh.inc'; fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f '/Users/kick/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/kick/google-cloud-sdk/completion.zsh.inc'; fi
+if [ -f '/Users/kick/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/kick/google-cloud-sdk/completion.zsh.inc'; fi
