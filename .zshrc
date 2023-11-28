@@ -93,6 +93,10 @@ alias gs='git status'
 # python
 alias python='python3'
 
+# Flutter
+alias f="fvm flutter"
+alias d="fvm dart"
+
 ## History
 #
 HISTFILE=~/.zsh_history
