@@ -94,8 +94,9 @@ alias gs='git status'
 alias python='python3'
 
 # Flutter
-alias f="fvm flutter"
-alias d="fvm dart"
+alias flutter="fvm flutter"
+alias dart="fvm dart"
+alias melos="fvm dart pub global run melos"
 
 ## History
 #
